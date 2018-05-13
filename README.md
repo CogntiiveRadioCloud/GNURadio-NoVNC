@@ -39,13 +39,27 @@ use a WebSockets to TCP socket proxy. noVNC has a sister project
 proxy.
 
 
+### Installation Requirements
+
+Install the server side, TightVNC which is a remote desktop control software that enables remote accessibilty. To install, use the following yum command as shown below.
+``` bash
+ yum -y install tigervnc-server xorg-x11-fonts-Type1
+```
+``` bash
+vncserver :1
+```
 ### Quick Start
 
+* Download current Repo
+``` bash
+git clone https://github.com/astro7x/GNURadio-NoVNC
+```
 * Use the launch script to automatically download and start websockify, which
   includes a mini-webserver and the WebSockets proxy. The `--vnc` option is
   used to specify the location of a running VNC server:
-
-    `./utils/launch.sh --vnc localhost:5901`
+```
+./utils/launch.sh --vnc localhost:5901`
+```
 
 * Point your browser to the cut-and-paste URL that is output by the launch
   script. Hit the Connect button, enter a password if the VNC server has one
