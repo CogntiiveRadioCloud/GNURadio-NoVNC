@@ -66,6 +66,12 @@ git clone https://github.com/astro7x/GNURadio-NoVNC
   configured, and enjoy!
 
 
+
+### TODO
+create a script to create random users to use the GNURadio-NoVNC service for a fixed timeslot and terminate/abort the connection after time slot duration.
+[REF](https://www.howtoforge.com/vnc-server-installation-on-centos-7)
+
+
 ### NoVNC Project Reference
 [NOVNC](http://novnc.com)
 
