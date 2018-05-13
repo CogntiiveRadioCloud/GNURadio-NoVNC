@@ -58,7 +58,7 @@ git clone https://github.com/astro7x/GNURadio-NoVNC
   includes a mini-webserver and the WebSockets proxy. The `--vnc` option is
   used to specify the location of a running VNC server:
 ```
-./utils/launch.sh --vnc localhost:5901`
+./utils/launch.sh --vnc localhost:5901
 ```
 
 * Point your browser to the cut-and-paste URL that is output by the launch
