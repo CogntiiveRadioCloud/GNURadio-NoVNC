@@ -6,5 +6,5 @@
 #!/bin/bash
 xrdb $HOME/.Xresources
 startxfce4 &
-gnuradio-companion -title "GNURadio:Simulation Server"
-#gnuradio-companion
+#gnuradio-companion -title "GNURadio:Simulation Server" 
+gnuradio-companion
